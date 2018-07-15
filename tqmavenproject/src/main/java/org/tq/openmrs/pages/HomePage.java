@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class HomePage {
 	WebDriver driver;
+	//Fixing the Selenium Issues
 	public HomePage(WebDriver driver)
 	{
 		this.driver = driver;
