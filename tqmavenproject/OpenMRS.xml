@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  verbose="5">
+  <test name="OpenMRS Tests">
+  <parameter name="username" value="Admin" />
+  <parameter name="password" value="Admin123"/>
+  <parameter name="url" value="https://demo.openmrs.org " />
+  <parameter name="browserType" value="FF" />
+  <classes>
+  	<class name="org.tq.openmrs.tests.ManageServiceTypesTests" />
+  </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
