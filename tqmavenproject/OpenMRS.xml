@@ -5,7 +5,7 @@
   <parameter name="username" value="Admin" />
   <parameter name="password" value="Admin123"/>
   <parameter name="url" value="https://demo.openmrs.org " />
-  <parameter name="browserType" value="FF" />
+  <parameter name="browserType" value="CH" />
   <classes>
   	<class name="org.tq.openmrs.tests.ManageServiceTypesTests" />
   </classes>
